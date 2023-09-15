@@ -12,7 +12,7 @@ const routes: Routes = [
   {path:'listings',component:ListingsPageComponent, pathMatch:'full'},
   {path:'listings/:id',component:ListingDetailPageComponent, },
   {path:'contactPage/:id',component:ContactPageComponent,},
-  {path:'editListings/id',component:EditListingPageComponent,},
+  {path:'editListings/:id',component:EditListingPageComponent,},
   {path:'myListings',component:MyListingsPageComponent,},
   {path:'newListings',component:NewListingsPageComponent,},
 ];

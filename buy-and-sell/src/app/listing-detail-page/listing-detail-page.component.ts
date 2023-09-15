@@ -18,5 +18,4 @@ export class ListingDetailPageComponent {
     const id = this.route.snapshot.paramMap.get('id');
     this.listing = fakeListings.find(listing => listing.id === id);
   }
-
 }
